@@ -16,7 +16,7 @@ const Searchbar = ({search,setSearch}) => {
       type:type,
       name:searchName
     })
-    console.log(search)
+    // console.log(search)
   
   }
 
