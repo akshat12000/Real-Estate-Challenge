@@ -44,7 +44,7 @@ const Searchbar = ({search,setSearch}) => {
             </div>
             <div>
               <label htmlFor='When'>When</label>
-              <input type="datetime-local"/>
+              <input type="date"/>
             </div>
             <div>
               <label htmlFor='Price'>Price</label>
