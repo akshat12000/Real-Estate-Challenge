@@ -7,11 +7,11 @@ const DisplayCards = ({houses}) => {
     
   return (
     <div className='card-container'>
-        {houses.map(house=>(
+        {houses?.length ? houses.map(house=>(
             <div>
                 <Card house={house}/>
             </div>
-        ))}
+        )):<div>No houses found!</div>}
     </div>
   )
 }
