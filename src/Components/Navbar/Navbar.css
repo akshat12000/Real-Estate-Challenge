@@ -48,7 +48,7 @@
     background-color:rgb(251, 233, 254);
 }
 
-.nav-links .active{
+.nav-links .is-active{
     color: #a861ff;
     background-color:rgb(251, 233, 254);
 }

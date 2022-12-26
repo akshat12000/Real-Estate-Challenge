@@ -16,7 +16,7 @@ const Navbar = () => {
             </div>
         </div>
         <div className="nav-links">
-            <a href="/" className='active'>Rent</a>
+            <a href="/" className='is-active'>Rent</a>
             <a href="/">Buy</a>
             <a href="/">Sell</a>
             <a href="/">Manage Property&nbsp;<i class="bi bi-caret-down-fill"></i></a>
