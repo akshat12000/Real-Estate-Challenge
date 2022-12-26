@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+    background-color: rgb(252, 252, 252);
+}
+.nav-brand{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.title{
+    display: flex;
+    align-items: center;
+}
+.title i{
+    font-size: 1.5rem;
+    color: #a861ff;
+}
+.title h2{
+    color: rgb(63, 63, 63);
+    margin-left: 0.5rem;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links a{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color:rgb(63, 63, 63);
+}
+
+.nav-links a:hover{
+    color: #a861ff;
+    background-color:rgb(251, 233, 254);
+}
+
+.nav-links .active{
+    color: #a861ff;
+    background-color:rgb(251, 233, 254);
+}
+
+.login-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-btn{
+    padding: 0.5rem 1rem;
+    border: 1px solid #a861ff;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #a861ff;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.login-btn:hover{
+    color: #fff;
+    background-color: #a861ff;
+}
+
+.signup-btn{
+    padding: 0.5rem 1rem;
+    border: 1px solid #a861ff;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-left: 1rem;
+    color: #fff;
+    background-color: #a861ff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.signup-btn:hover{
+    color: #a861ff;
+    background-color: #fff;
+}
+.toggler{
+    font-size: 1.5rem;
+    display:none;
+    font-weight: 400;
+    align-items: center;
+}
+
+@media (max-width: 840px){
+    .navbar{
+        flex-direction: column;
+        padding: 1rem 0;
+    }
+    .nav-links{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem 0;
+    }
+    .login-details{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+    }
+    .login-btn{
+        margin-bottom: 1rem;
+    }
+    .signup-btn{
+        margin-left: 0;
+    }
+    .toggler{
+        display: block;
+    }
+    .active{
+        display: none;
+    }
+}
+    
