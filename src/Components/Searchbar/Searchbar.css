@@ -73,3 +73,27 @@
     background-color: #fff;
 }
 
+@media screen and (max-width: 1024px){
+    .search-bottom{
+        flex-direction: column;
+    }
+    .search-bottom div{
+        border-right: none;
+        border-bottom: #ccc 1px solid;
+        padding: 1rem 0;
+    }
+    .search-bottom div:last-child{
+        border-bottom: none;
+    }
+}
+
+@media screen and (max-width: 880px){
+    .search-top{
+        flex-direction: column;
+    }
+    .search-top input{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
+    
